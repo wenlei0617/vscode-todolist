@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+#list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#list li div {
+  display: flex;
+  align-items: center;
+}
+
+.finish {
+  text-decoration: line-through;
+}
